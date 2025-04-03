@@ -4,11 +4,8 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
-
-        return str(x) == str(x)[::-1]
-        num = int(input())
-        if isPalindrome(num):
-            return true
-        else: 
-            return false
+        if str(x) == str(x)[::-1] :
+           return  True
+        else:
+            return False
         
